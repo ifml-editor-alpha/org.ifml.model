@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IFML Model
+Bundle-SymbolicName: org.ifml.model;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: WebRatio s.r.l.
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.ifml.model,
+ org.ifml.model.core,
+ org.ifml.model.core.impl,
+ org.ifml.model.core.util,
+ org.ifml.model.extensions,
+ org.ifml.model.extensions.impl,
+ org.ifml.model.extensions.util,
+ org.ifml.model.uml,
+ org.ifml.model.uml.impl,
+ org.ifml.model.uml.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport,
+ org.ifml.lib.google.guava,
+ org.ifml.eclipse.emf.core,
+ org.ifml.base
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.omg.org/spec/IFML/core"
+            class="org.ifml.model.core.CorePackage"
+            genModel="model/IFML.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.omg.org/spec/IFML/ext"
+            class="org.ifml.model.extensions.ExtensionsPackage"
+            genModel="model/IFML.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.omg.org/spec/UML"
+            class="org.ifml.model.uml.UmlPackage"
+            genModel="model/IFML.genmodel"/>
+   </extension>
+
+</plugin>
